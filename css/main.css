@@ -1,42 +1,44 @@
 body .site-header, body .site {
   max-width: none; }
 body a {
-  color: #24890d; }
+  color: #1D700A; }
 body ::selection {
-  background: #24890d; }
+  background: #1D700A; }
 body ::-moz-selection {
-  background: #24890d; }
+  background: #1D700A; }
 body button, body .button, body input[type="button"], body input[type="reset"], body input[type="submit"] {
-  background-color: #24890d; }
+  background-color: #1D700A; }
 body .search-toggle {
-  background-color: #24890d; }
+  background-color: #1D700A; }
+  body .search-toggle:hover {
+    background-color: #5D0A70; }
 body .hentry .mejs-controls .mejs-time-rail .mejs-time-current {
-  background: #24890d; }
+  background: #1D700A; }
 body .hentry .mejs-overlay:hover .mejs-overlay-button {
-  background-color: #24890d; }
+  background-color: #1D700A; }
 body .paging-navigation .page-numbers.current {
-  border-top: 5px solid #24890d; }
+  border-top: 5px solid #1D700A; }
 body .widget button, body .widget .button, body .widget input[type="button"], body .widget input[type="reset"], body .widget input[type="submit"] {
-  background-color: #24890d; }
+  background-color: #1D700A; }
 body .widget_calendar tbody a {
-  background-color: #24890d; }
+  background-color: #1D700A; }
 body .content-sidebar .widget a {
-  color: #24890d; }
+  color: #1D700A; }
 body .content-sidebar .widget input[type="button"], body .content-sidebar .widget input[type="reset"], body .content-sidebar .widget input[type="submit"] {
-  background-color: #24890d; }
+  background-color: #1D700A; }
 body .slider-control-paging .slider-active:before, body .slider-control-paging .slider-active:hover:before {
-  background-color: #24890d; }
+  background-color: #1D700A; }
 body .slider-direction-nav a:hover {
-  background-color: #24890d; }
+  background-color: #1D700A; }
 
 @media screen and (min-width: 783px) {
   body .primary-navigation ul ul {
-    background-color: #24890d; }
+    background-color: #1D700A; }
   body .primary-navigation li:hover > a, body .primary-navigation li.focus > a {
-    background-color: #24890d; } }
+    background-color: #5D0A70; } }
 
 @media screen and (min-width: 1008px) {
   body .secondary-navigation ul ul {
-    background-color: #24890d; }
+    background-color: #1D700A; }
   body .secondary-navigation li:hover > a, body .secondary-navigation li.focus > a {
-    background-color: #24890d; } }
+    background-color: #1D700A; } }

@@ -1,4 +1,5 @@
-$green: #24890d;
+$green: #1D700A;
+$purple: #5D0A70;
 
 body {
   .site-header, .site { 
@@ -27,6 +28,10 @@ body {
 
   .search-toggle {
     background-color: $green;
+
+    &:hover {
+      background-color: $purple;
+    }
   }
 
   .hentry .mejs-controls .mejs-time-rail .mejs-time-current {
@@ -82,7 +87,7 @@ body {
 
     .primary-navigation li:hover > a,
     .primary-navigation li.focus > a {
-      background-color: $green;
+      background-color: $purple;
     }
   }
 }

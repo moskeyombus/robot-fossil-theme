@@ -24,7 +24,7 @@
   <title><?php wp_title( '|', true, 'right' ); ?></title>
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main.css">
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/main.css">
   <!--[if lt IE 9]>
   <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
   <![endif]-->
@@ -46,12 +46,12 @@
       <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
       <div class="search-toggle">
-        <a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
+        <a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php _e( 'Search', 'robotfossil' ); ?></a>
       </div>
 
       <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-        <button class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></button>
-        <a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
+        <button class="menu-toggle"><?php _e( 'Primary Menu', 'robotfossil' ); ?></button>
+        <a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'robotfossil' ); ?></a>
         <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
       </nav>
     </div>
