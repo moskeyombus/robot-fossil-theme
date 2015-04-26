@@ -1,1 +1,1 @@
-Robot Fossil WordPress theme.  Child Theme for the WordPress 2014 Theme.
+Robot Fossil Wordpress theme.  Child Theme for the Wordpress 2014 Theme.

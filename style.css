@@ -5,9 +5,15 @@ Author: @MoskeyOmbus
 Author URI: http://www.robotfossil.com/
 Template: twentyfourteen
 Description: WordPress Theme for RobotFossil.com.
-Version: 1.0
+Version: 1.0.1
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 Tags: robot-fossil
 Text Domain: twentyfourteen
+GitHub Theme URI: https://github.com/moskeyombus/robot-fossil-theme.git
+GitHub Branch:    master
 */
+
+.site-header, .site { 
+  max-width: none;
+}
