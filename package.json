@@ -1,0 +1,19 @@
+{
+  "name": "robot-fossil-template",
+  "version": "1.0.2",
+  "description": "Notes",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moskeyombus/robot-fossil-theme.git"
+  },
+  "author": "Robot Fossil",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-sass": "^1.3.3"
+  }
+}

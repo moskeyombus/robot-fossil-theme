@@ -1,0 +1,101 @@
+$green: #24890d;
+
+body {
+  .site-header, .site { 
+    max-width: none;
+  }
+
+  a {
+    color: $green;
+  }
+
+  ::selection {
+    background: $green;
+  }
+
+  ::-moz-selection {
+    background: $green;
+  }
+
+  button,
+  .button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    background-color: $green;
+  }
+
+  .search-toggle {
+    background-color: $green;
+  }
+
+  .hentry .mejs-controls .mejs-time-rail .mejs-time-current {
+    background: $green;
+  }
+
+  .hentry .mejs-overlay:hover .mejs-overlay-button {
+    background-color: $green;
+  }
+
+  .paging-navigation .page-numbers.current {
+    border-top: 5px solid $green;
+  }
+
+  .widget button,
+  .widget .button,
+  .widget input[type="button"],
+  .widget input[type="reset"],
+  .widget input[type="submit"] {
+    background-color: $green;
+  }
+
+  .widget_calendar tbody a {
+    background-color: $green;
+  }
+
+  .content-sidebar .widget a {
+    color: $green;
+  }
+
+  .content-sidebar .widget input[type="button"],
+  .content-sidebar .widget input[type="reset"],
+  .content-sidebar .widget input[type="submit"] {
+    background-color: $green;
+  }
+
+  .slider-control-paging .slider-active:before,
+  .slider-control-paging .slider-active:hover:before {
+    background-color: $green;
+  }
+
+  .slider-direction-nav a:hover {
+    background-color: $green;
+  }
+
+}
+
+@media screen and (min-width: 783px) {
+  body {
+    .primary-navigation ul ul {
+      background-color: $green;
+    }
+
+    .primary-navigation li:hover > a,
+    .primary-navigation li.focus > a {
+      background-color: $green;
+    }
+  }
+}
+
+@media screen and (min-width: 1008px) {
+  body {
+    .secondary-navigation ul ul {
+      background-color: $green;
+    }
+
+    .secondary-navigation li:hover > a,
+    .secondary-navigation li.focus > a {
+      background-color: $green;
+    }
+  }
+}

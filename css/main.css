@@ -1,0 +1,42 @@
+body .site-header, body .site {
+  max-width: none; }
+body a {
+  color: #24890d; }
+body ::selection {
+  background: #24890d; }
+body ::-moz-selection {
+  background: #24890d; }
+body button, body .button, body input[type="button"], body input[type="reset"], body input[type="submit"] {
+  background-color: #24890d; }
+body .search-toggle {
+  background-color: #24890d; }
+body .hentry .mejs-controls .mejs-time-rail .mejs-time-current {
+  background: #24890d; }
+body .hentry .mejs-overlay:hover .mejs-overlay-button {
+  background-color: #24890d; }
+body .paging-navigation .page-numbers.current {
+  border-top: 5px solid #24890d; }
+body .widget button, body .widget .button, body .widget input[type="button"], body .widget input[type="reset"], body .widget input[type="submit"] {
+  background-color: #24890d; }
+body .widget_calendar tbody a {
+  background-color: #24890d; }
+body .content-sidebar .widget a {
+  color: #24890d; }
+body .content-sidebar .widget input[type="button"], body .content-sidebar .widget input[type="reset"], body .content-sidebar .widget input[type="submit"] {
+  background-color: #24890d; }
+body .slider-control-paging .slider-active:before, body .slider-control-paging .slider-active:hover:before {
+  background-color: #24890d; }
+body .slider-direction-nav a:hover {
+  background-color: #24890d; }
+
+@media screen and (min-width: 783px) {
+  body .primary-navigation ul ul {
+    background-color: #24890d; }
+  body .primary-navigation li:hover > a, body .primary-navigation li.focus > a {
+    background-color: #24890d; } }
+
+@media screen and (min-width: 1008px) {
+  body .secondary-navigation ul ul {
+    background-color: #24890d; }
+  body .secondary-navigation li:hover > a, body .secondary-navigation li.focus > a {
+    background-color: #24890d; } }
