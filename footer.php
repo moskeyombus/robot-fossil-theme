@@ -21,6 +21,7 @@
         <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'robotfossil' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'robotfossil' ), 'WordPress' ); ?></a>
       </div><!-- .site-info -->
     </footer><!-- #colophon -->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/robotfossil.min.js"></script>
   </div><!-- #page -->
 
   <?php wp_footer(); ?>
