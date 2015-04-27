@@ -23,6 +23,7 @@
     "bootstrap": "^3.3.4",
     "browserify": "^9.0.8",
     "devicons": "^1.7.0",
+    "font-awesome": "^4.3.0",
     "jquery": "^2.1.3",
     "vinyl-source-stream": "^1.1.0"
   }

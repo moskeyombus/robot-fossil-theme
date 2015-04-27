@@ -26,6 +26,7 @@ gulp.task('build-css', function () {
   gulp
     .src([
       './node_modules/bootstrap/dist/css/bootstrap.min.css',
+      './node_modules/font-awesome/css/font-awesome.min.css',
       './node_modules/devicons/css/devicons.min.css',     
       './build/main.css'
     ])
@@ -62,7 +63,20 @@ gulp.task('move-js', function () {
     .pipe(gulp.dest('./js/'));
 });
 
+gulp.task('move-fonts', function () {
+  gulp
+    .src([
+      './node_modules/font-awesome/fonts/fontawesome-webfont.eot',
+      './node_modules/font-awesome/fonts/fontawesome-webfont.svg',
+      './node_modules/font-awesome/fonts/fontawesome-webfont.ttf',
+      './node_modules/font-awesome/fonts/fontawesome-webfont.woff',
+      './node_modules/font-awesome/fonts/fontawesome-webfont.woff2',      
+      './node_modules/font-awesome/fonts/FontAwesome.otf'
+    ])
+    .pipe(gulp.dest('./fonts/'));
+});
+
 // build task
 gulp.task('build',
-  ['sass', 'minify-css', 'uglify', 'move-js', 'browserify', 'build-css']
+  ['sass', 'minify-css', 'uglify', 'move-js', 'move-fonts', 'browserify', 'build-css']
 );

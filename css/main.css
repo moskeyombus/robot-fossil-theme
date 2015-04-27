@@ -1,5 +1,9 @@
 body .site-header, body .site {
   max-width: none; }
+body .header-main .site-title {
+  font-size: 24px; }
+body .site-description {
+  font-size: 16px; }
 body a {
   color: #1D700A; }
 body ::selection {
@@ -42,3 +46,7 @@ body .slider-direction-nav a:hover {
     background-color: #1D700A; }
   body .secondary-navigation li:hover > a, body .secondary-navigation li.focus > a {
     background-color: #1D700A; } }
+
+@media screen and (min-width: 1080px) {
+  body #secondary {
+    width: 220px; } }

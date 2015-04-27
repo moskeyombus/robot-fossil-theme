@@ -6,6 +6,17 @@ body {
     max-width: none;
   }
 
+  .header-main {
+    .site-title {
+      font-size: 24px;
+    }
+  }
+
+
+  .site-description {
+    font-size: 16px;
+  }
+
   a {
     color: $green;
   }
@@ -102,5 +113,13 @@ body {
     .secondary-navigation li.focus > a {
       background-color: $green;
     }
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  body {
+    #secondary {
+      width: 220px;
+    }  
   }
 }
